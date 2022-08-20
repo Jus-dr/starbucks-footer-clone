@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+
+
+}
+
+footer {
+    display: flex;
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 30px;
+
+
+}
+footer div {
+    margin-right: 15px;
+}
+footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+footer ul {
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(0,0,0,.58);
+    list-style-type: none;
+    margin-top: 18px;
+    width: 80%;
+}
+footer ul li {
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+hr {
+    color: rgba(0,0,0,.87);
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 30px;
+    width: 17%;
+    list-style-type: none;
+}
+.footer-texts {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%;
+    margin: 20px 0px 0px 15px;
+}
+.footer-texts li {
+    margin:0 10px;
+    cursor: pointer;
+}
+.rights-text {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgba(0,0,0,.58)!important;
+}
